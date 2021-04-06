@@ -8,18 +8,18 @@
 import UIKit
 
 
-
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let icon = UIApplicationShortcutIcon(type: .add)
-        let item = UIApplicationShortcutItem(type: "com.yoursite.yourapp.adduser", localizedTitle: "Add User", localizedSubtitle: "Meet someone new", icon: icon, userInfo: nil)
+                
+        let item = UIApplicationShortcutItem(type: "com.cedricbahirwe.Project2.quickplay", localizedTitle: "Quick Play", localizedSubtitle: "Start a Quick game", icon: icon, userInfo: nil)
         UIApplication.shared.shortcutItems = [item]
         return true
+    
     }
-
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

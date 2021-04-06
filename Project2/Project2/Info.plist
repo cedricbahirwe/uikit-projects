@@ -66,11 +66,11 @@
 	<array>
 		<dict>
 			<key>UIApplicationShortcutItemIconType</key>
-			<string>UIApplicationShortcutIconTypeAdd</string>
+			<string>UIApplicationShortcutIconTypeShare</string>
 			<key>UIApplicationShortcutItemTitle</key>
-			<string>Add Task</string>
+			<string>Share App</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>com.cedricbahirwe.Project2.addtask</string>
+			<string>com.cedricbahirwe.Project2.ShareApp</string>
 		</dict>
 	</array>
 </dict>
