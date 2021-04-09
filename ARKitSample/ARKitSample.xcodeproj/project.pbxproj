@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		821D14E6261DCDD800087A88 /* cedricbahirwe.stl in Resources */ = {isa = PBXBuildFile; fileRef = 821D14E5261DCDD800087A88 /* cedricbahirwe.stl */; };
+		821F880A2620630600EE9DB0 /* 34M_17.dae in Resources */ = {isa = PBXBuildFile; fileRef = 821F88092620630600EE9DB0 /* 34M_17.dae */; };
 		82A9BC8C261DD29A009CDD82 /* bottom.stl in Resources */ = {isa = PBXBuildFile; fileRef = 82A9BC8B261DD29A009CDD82 /* bottom.stl */; };
 		82A9BC93261DE395009CDD82 /* ced.stl in Resources */ = {isa = PBXBuildFile; fileRef = 82A9BC92261DE395009CDD82 /* ced.stl */; };
 		82A9BC96261DE512009CDD82 /* cedo.stl in Resources */ = {isa = PBXBuildFile; fileRef = 82A9BC95261DE512009CDD82 /* cedo.stl */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		821D14E5261DCDD800087A88 /* cedricbahirwe.stl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cedricbahirwe.stl; sourceTree = "<group>"; };
+		821F88092620630600EE9DB0 /* 34M_17.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = 34M_17.dae; sourceTree = "<group>"; };
 		82A9BC8B261DD29A009CDD82 /* bottom.stl */ = {isa = PBXFileReference; lastKnownFileType = file; path = bottom.stl; sourceTree = "<group>"; };
 		82A9BC92261DE395009CDD82 /* ced.stl */ = {isa = PBXFileReference; lastKnownFileType = file; path = ced.stl; sourceTree = "<group>"; };
 		82A9BC95261DE512009CDD82 /* cedo.stl */ = {isa = PBXFileReference; lastKnownFileType = file; path = cedo.stl; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				82FAC7F7261DC2F8004BDF0F /* AppDelegate.swift */,
 				82FAC7F9261DC2F8004BDF0F /* art.scnassets */,
 				82FAC7FB261DC2F8004BDF0F /* ViewController.swift */,
+				821F88092620630600EE9DB0 /* 34M_17.dae */,
 				82A9BC92261DE395009CDD82 /* ced.stl */,
 				82A9BC95261DE512009CDD82 /* cedo.stl */,
 				821D14E5261DCDD800087A88 /* cedricbahirwe.stl */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				821D14E6261DCDD800087A88 /* cedricbahirwe.stl in Resources */,
+				821F880A2620630600EE9DB0 /* 34M_17.dae in Resources */,
 				82FAC7FA261DC2F8004BDF0F /* art.scnassets in Resources */,
 				82A9BC93261DE395009CDD82 /* ced.stl in Resources */,
 				82A9BC8C261DD29A009CDD82 /* bottom.stl in Resources */,

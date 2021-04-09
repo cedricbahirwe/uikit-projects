@@ -24,8 +24,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Create a new scene
 //        let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        let scene = SCNScene(named: "ced.stl")!
-        
+        let scene = SCNScene(named: "34M_17.dae")!
+//        scene.background = SCNMaterialProperty()
         
         sceneView.scene = scene
     }
