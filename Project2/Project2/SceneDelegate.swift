@@ -25,8 +25,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             actionShareSheet()
             completionHandler(true)
         }
-        
-        
     }
     
     func actionShareSheet() {
