@@ -6,10 +6,10 @@ All Prototypes of my sampe `UIKit` Projects
  - A game where user is supposed to find the right flag for a given country between a set of 3 flags.
  - Demonstration of Home Screen Quick Actions(Shortcuts) .
 
-## QuickScanner: A Document Scanning App
+## QuickScanner: A Document Scanning Sample App
 
 - Uses VisonKit to scan documents and View them as Images.
 
 ## TabViewer
-- Brings a experience of using a Swipeable TabView with a smooth animation.
+- Brings a  custom Swipeable TabView with smooth animation.
 
