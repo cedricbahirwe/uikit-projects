@@ -8,7 +8,7 @@ All Prototypes of my sampe `UIKit` Projects
 
 ## QuickScanner: A Document Scanning App
 
-- Uses VisonKit to scan documents and View them as Images.
+- Uses `VisonKit` to scan documents and View them as Images.
 
 ## TabViewer
 - Brings a experience of using a Swipeable TabView with a smooth animation.
