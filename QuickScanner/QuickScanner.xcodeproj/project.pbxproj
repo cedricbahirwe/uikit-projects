@@ -13,26 +13,7 @@
 		829241A9261C9DE200E934AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829241A7261C9DE200E934AD /* Main.storyboard */; };
 		829241AB261C9DE400E934AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829241AA261C9DE400E934AD /* Assets.xcassets */; };
 		829241AE261C9DE400E934AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829241AC261C9DE400E934AD /* LaunchScreen.storyboard */; };
-		829241B9261C9DE500E934AD /* QuickScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829241B8261C9DE500E934AD /* QuickScannerTests.swift */; };
-		829241C4261C9DE500E934AD /* QuickScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829241C3261C9DE500E934AD /* QuickScannerUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		829241B5261C9DE500E934AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82924196261C9DE200E934AD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8292419D261C9DE200E934AD;
-			remoteInfo = QuickScanner;
-		};
-		829241C0261C9DE500E934AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82924196261C9DE200E934AD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8292419D261C9DE200E934AD;
-			remoteInfo = QuickScanner;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8292419E261C9DE200E934AD /* QuickScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,30 +24,10 @@
 		829241AA261C9DE400E934AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		829241AD261C9DE400E934AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		829241AF261C9DE400E934AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		829241B4261C9DE500E934AD /* QuickScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		829241B8261C9DE500E934AD /* QuickScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickScannerTests.swift; sourceTree = "<group>"; };
-		829241BA261C9DE500E934AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		829241BF261C9DE500E934AD /* QuickScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		829241C3261C9DE500E934AD /* QuickScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickScannerUITests.swift; sourceTree = "<group>"; };
-		829241C5261C9DE500E934AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8292419B261C9DE200E934AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		829241B1261C9DE500E934AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		829241BC261C9DE500E934AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				829241A0261C9DE200E934AD /* QuickScanner */,
-				829241B7261C9DE500E934AD /* QuickScannerTests */,
-				829241C2261C9DE500E934AD /* QuickScannerUITests */,
 				8292419F261C9DE200E934AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				8292419E261C9DE200E934AD /* QuickScanner.app */,
-				829241B4261C9DE500E934AD /* QuickScannerTests.xctest */,
-				829241BF261C9DE500E934AD /* QuickScannerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,24 +65,6 @@
 				829241AF261C9DE400E934AD /* Info.plist */,
 			);
 			path = QuickScanner;
-			sourceTree = "<group>";
-		};
-		829241B7261C9DE500E934AD /* QuickScannerTests */ = {
-			isa = PBXGroup;
-			children = (
-				829241B8261C9DE500E934AD /* QuickScannerTests.swift */,
-				829241BA261C9DE500E934AD /* Info.plist */,
-			);
-			path = QuickScannerTests;
-			sourceTree = "<group>";
-		};
-		829241C2261C9DE500E934AD /* QuickScannerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				829241C3261C9DE500E934AD /* QuickScannerUITests.swift */,
-				829241C5261C9DE500E934AD /* Info.plist */,
-			);
-			path = QuickScannerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,42 +87,6 @@
 			productReference = 8292419E261C9DE200E934AD /* QuickScanner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		829241B3261C9DE500E934AD /* QuickScannerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 829241CB261C9DE500E934AD /* Build configuration list for PBXNativeTarget "QuickScannerTests" */;
-			buildPhases = (
-				829241B0261C9DE500E934AD /* Sources */,
-				829241B1261C9DE500E934AD /* Frameworks */,
-				829241B2261C9DE500E934AD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				829241B6261C9DE500E934AD /* PBXTargetDependency */,
-			);
-			name = QuickScannerTests;
-			productName = QuickScannerTests;
-			productReference = 829241B4261C9DE500E934AD /* QuickScannerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		829241BE261C9DE500E934AD /* QuickScannerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 829241CE261C9DE500E934AD /* Build configuration list for PBXNativeTarget "QuickScannerUITests" */;
-			buildPhases = (
-				829241BB261C9DE500E934AD /* Sources */,
-				829241BC261C9DE500E934AD /* Frameworks */,
-				829241BD261C9DE500E934AD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				829241C1261C9DE500E934AD /* PBXTargetDependency */,
-			);
-			name = QuickScannerUITests;
-			productName = QuickScannerUITests;
-			productReference = 829241BF261C9DE500E934AD /* QuickScannerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +98,6 @@
 				TargetAttributes = {
 					8292419D261C9DE200E934AD = {
 						CreatedOnToolsVersion = 12.3;
-					};
-					829241B3261C9DE500E934AD = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 8292419D261C9DE200E934AD;
-					};
-					829241BE261C9DE500E934AD = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 8292419D261C9DE200E934AD;
 					};
 				};
 			};
@@ -220,8 +115,6 @@
 			projectRoot = "";
 			targets = (
 				8292419D261C9DE200E934AD /* QuickScanner */,
-				829241B3261C9DE500E934AD /* QuickScannerTests */,
-				829241BE261C9DE500E934AD /* QuickScannerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +127,6 @@
 				829241AE261C9DE400E934AD /* LaunchScreen.storyboard in Resources */,
 				829241AB261C9DE400E934AD /* Assets.xcassets in Resources */,
 				829241A9261C9DE200E934AD /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		829241B2261C9DE500E934AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		829241BD261C9DE500E934AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,36 +143,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		829241B0261C9DE500E934AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				829241B9261C9DE500E934AD /* QuickScannerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		829241BB261C9DE500E934AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				829241C4261C9DE500E934AD /* QuickScannerUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		829241B6261C9DE500E934AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8292419D261C9DE200E934AD /* QuickScanner */;
-			targetProxy = 829241B5261C9DE500E934AD /* PBXContainerItemProxy */;
-		};
-		829241C1261C9DE500E934AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8292419D261C9DE200E934AD /* QuickScanner */;
-			targetProxy = 829241C0261C9DE500E934AD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		829241A7261C9DE200E934AD /* Main.storyboard */ = {
@@ -469,90 +319,6 @@
 			};
 			name = Release;
 		};
-		829241CC261C9DE500E934AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9C9R36NYWY;
-				INFOPLIST_FILE = QuickScannerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cedricbahirwe.quickest.QuickScannerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickScanner.app/QuickScanner";
-			};
-			name = Debug;
-		};
-		829241CD261C9DE500E934AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9C9R36NYWY;
-				INFOPLIST_FILE = QuickScannerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cedricbahirwe.quickest.QuickScannerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickScanner.app/QuickScanner";
-			};
-			name = Release;
-		};
-		829241CF261C9DE500E934AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9C9R36NYWY;
-				INFOPLIST_FILE = QuickScannerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cedricbahirwe.quickest.QuickScannerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = QuickScanner;
-			};
-			name = Debug;
-		};
-		829241D0261C9DE500E934AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9C9R36NYWY;
-				INFOPLIST_FILE = QuickScannerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cedricbahirwe.quickest.QuickScannerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = QuickScanner;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -570,24 +336,6 @@
 			buildConfigurations = (
 				829241C9261C9DE500E934AD /* Debug */,
 				829241CA261C9DE500E934AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		829241CB261C9DE500E934AD /* Build configuration list for PBXNativeTarget "QuickScannerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				829241CC261C9DE500E934AD /* Debug */,
-				829241CD261C9DE500E934AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		829241CE261C9DE500E934AD /* Build configuration list for PBXNativeTarget "QuickScannerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				829241CF261C9DE500E934AD /* Debug */,
-				829241D0261C9DE500E934AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
