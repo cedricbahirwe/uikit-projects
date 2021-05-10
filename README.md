@@ -8,4 +8,5 @@ All Prototypes of my sampe `UIKit` Projects
 
 ## QuickScanner: A Document Scanning App
 
-- Scan documents and View them
+- Uses VisonKit to scan documents and View them as Images.
+

@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     func configureDocumentView() {
         let scanningDocVc = VNDocumentCameraViewController()
         scanningDocVc.delegate = self
-        self.present(scanningDocVc, animated: true, completion: nil)
+        present(scanningDocVc, animated: true, completion: nil)
     }
     
     func addTapGesture() {
