@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,14 +13,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hustle_Mode" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="darkBlueBG" translatesAutoresizingMaskIntoConstraints="NO" id="ceQ-L2-6rH">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVo-lQ-slv">
-                                <rect key="frame" x="142.5" y="288.5" width="90" height="90"/>
+                                <rect key="frame" x="115" y="239" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="YxA-CV-bHO"/>
                                     <constraint firstAttribute="width" constant="90" id="iFX-9w-66C"/>
@@ -31,25 +31,23 @@
                                 </connections>
                             </button>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SoL-Cs-Lap">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rocketAndStream" translatesAutoresizingMaskIntoConstraints="NO" id="gnR-Pu-hZp">
                                         <rect key="frame" x="0.0" y="264" width="375" height="650"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudsAndOrangeOval" translatesAutoresizingMaskIntoConstraints="NO" id="epL-7k-XKS">
-                                        <rect key="frame" x="0.0" y="190" width="375" height="477"/>
+                                        <rect key="frame" x="0.0" y="91" width="320" height="477"/>
                                     </imageView>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYc-Fo-dzb">
-                                        <rect key="frame" x="142" y="545" width="123" height="91"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYc-Fo-dzb">
+                                        <rect key="frame" x="101.5" y="452.5" width="117.5" height="95.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HUSTLE MODE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYH-ej-iin">
-                                        <rect key="frame" x="90" y="458" width="234" height="79"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HUSTLE MODE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYH-ej-iin">
+                                        <rect key="frame" x="62" y="410.5" width="196.5" height="33.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -57,9 +55,13 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.29411764705882354" green="0.46274509803921571" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="AYc-Fo-dzb" firstAttribute="top" secondItem="fYH-ej-iin" secondAttribute="bottom" constant="8.5099999999999998" id="2BZ-nY-9en"/>
                                     <constraint firstAttribute="bottom" secondItem="epL-7k-XKS" secondAttribute="bottom" id="O16-Ma-E3X"/>
                                     <constraint firstItem="epL-7k-XKS" firstAttribute="leading" secondItem="SoL-Cs-Lap" secondAttribute="leading" id="bxk-e1-75b"/>
+                                    <constraint firstItem="AYc-Fo-dzb" firstAttribute="centerX" secondItem="SoL-Cs-Lap" secondAttribute="centerX" id="dCv-1Q-FPX"/>
                                     <constraint firstAttribute="trailing" secondItem="epL-7k-XKS" secondAttribute="trailing" id="hof-7E-cxz"/>
+                                    <constraint firstAttribute="bottom" secondItem="AYc-Fo-dzb" secondAttribute="bottom" constant="20" id="vZL-cX-Q2w"/>
+                                    <constraint firstItem="fYH-ej-iin" firstAttribute="centerX" secondItem="SoL-Cs-Lap" secondAttribute="centerX" id="vyq-YY-KDR"/>
                                 </constraints>
                             </view>
                         </subviews>
