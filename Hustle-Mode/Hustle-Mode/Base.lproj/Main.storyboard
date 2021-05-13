@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hustle_Mode" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="darkBlueBG" translatesAutoresizingMaskIntoConstraints="NO" id="ceQ-L2-6rH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVo-lQ-slv">
+                                <rect key="frame" x="115" y="239" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="YxA-CV-bHO"/>
+                                    <constraint firstAttribute="width" constant="90" id="iFX-9w-66C"/>
+                                </constraints>
+                                <state key="normal" image="powerButton"/>
+                                <connections>
+                                    <action selector="powerBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="37Y-K1-Zcl"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SoL-Cs-Lap">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rocketAndStream" translatesAutoresizingMaskIntoConstraints="NO" id="gnR-Pu-hZp">
+                                        <rect key="frame" x="0.0" y="264" width="375" height="650"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudsAndOrangeOval" translatesAutoresizingMaskIntoConstraints="NO" id="epL-7k-XKS">
+                                        <rect key="frame" x="0.0" y="91" width="320" height="477"/>
+                                    </imageView>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYc-Fo-dzb">
+                                        <rect key="frame" x="101.5" y="452.5" width="117.5" height="95.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HUSTLE MODE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYH-ej-iin">
+                                        <rect key="frame" x="62" y="410.5" width="196.5" height="33.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.29411764705882354" green="0.46274509803921571" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="AYc-Fo-dzb" firstAttribute="top" secondItem="fYH-ej-iin" secondAttribute="bottom" constant="8.5099999999999998" id="2BZ-nY-9en"/>
+                                    <constraint firstAttribute="bottom" secondItem="epL-7k-XKS" secondAttribute="bottom" id="O16-Ma-E3X"/>
+                                    <constraint firstItem="epL-7k-XKS" firstAttribute="leading" secondItem="SoL-Cs-Lap" secondAttribute="leading" id="bxk-e1-75b"/>
+                                    <constraint firstItem="AYc-Fo-dzb" firstAttribute="centerX" secondItem="SoL-Cs-Lap" secondAttribute="centerX" id="dCv-1Q-FPX"/>
+                                    <constraint firstAttribute="trailing" secondItem="epL-7k-XKS" secondAttribute="trailing" id="hof-7E-cxz"/>
+                                    <constraint firstAttribute="bottom" secondItem="AYc-Fo-dzb" secondAttribute="bottom" constant="20" id="vZL-cX-Q2w"/>
+                                    <constraint firstItem="fYH-ej-iin" firstAttribute="centerX" secondItem="SoL-Cs-Lap" secondAttribute="centerX" id="vyq-YY-KDR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ceQ-L2-6rH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2QF-f9-UAM"/>
+                            <constraint firstItem="SoL-Cs-Lap" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="47c-zn-6la"/>
+                            <constraint firstItem="SoL-Cs-Lap" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IHR-E0-CUB"/>
+                            <constraint firstItem="SVo-lQ-slv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="M10-zm-q8G"/>
+                            <constraint firstItem="ceQ-L2-6rH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aGe-ZZ-Nom"/>
+                            <constraint firstAttribute="bottom" secondItem="ceQ-L2-6rH" secondAttribute="bottom" id="cCX-PN-AjT"/>
+                            <constraint firstItem="SVo-lQ-slv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cV3-Nj-K8I"/>
+                            <constraint firstItem="ceQ-L2-6rH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dSD-4C-YOl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SoL-Cs-Lap" secondAttribute="bottom" id="rev-bB-OYw"/>
+                            <constraint firstItem="SoL-Cs-Lap" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wZK-sL-bU6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cloudHolder" destination="SoL-Cs-Lap" id="Qs9-MY-iSW"/>
+                        <outlet property="darkBlueBG" destination="ceQ-L2-6rH" id="ipv-b2-KoX"/>
+                        <outlet property="hustleLbl" destination="fYH-ej-iin" id="XEc-lD-GuD"/>
+                        <outlet property="onLbl" destination="AYc-Fo-dzb" id="R9g-dY-LRa"/>
+                        <outlet property="powerBtn" destination="SVo-lQ-slv" id="sk4-fv-vZP"/>
+                        <outlet property="rocket" destination="gnR-Pu-hZp" id="RWP-uc-DuE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114.40000000000001" y="66.11694152923539"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloudsAndOrangeOval" width="414" height="477"/>
+        <image name="darkBlueBG" width="414" height="736"/>
+        <image name="powerButton" width="96" height="96"/>
+        <image name="rocketAndStream" width="414" height="672"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
