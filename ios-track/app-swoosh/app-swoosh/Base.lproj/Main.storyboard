@@ -299,6 +299,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rP8-TL-zOe"/>
+                    <connections>
+                        <outlet property="levelLabel" destination="8D9-UU-pD7" id="obM-0F-LVU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cqv-xV-xk7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

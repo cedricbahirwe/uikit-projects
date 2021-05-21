@@ -9,6 +9,8 @@ import UIKit
 
 class SkillVC: UIViewController {
 
+    @IBOutlet weak var levelLabel: UILabel!
+    
     var player: Player!
     override func viewDidLoad() {
         super.viewDidLoad()

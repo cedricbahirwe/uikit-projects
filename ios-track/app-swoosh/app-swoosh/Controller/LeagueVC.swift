@@ -8,10 +8,10 @@
 import UIKit
 
 class LeagueVC: UIViewController {
-
+    
     var player: Player!
     @IBOutlet weak var nextBtn: BorderButton!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         nextBtn.isEnabled = false
@@ -19,17 +19,15 @@ class LeagueVC: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "segueToSkillVC" {
-            if let vc = segue.destination as? SkillVC {
-                vc.player = player
-            }
+        if let vc = segue.destination as? SkillVC {
+            vc.player = player
         }
     }
     
     @IBAction func onNextTapped(_ sender: UIButton) {
         performSegue(withIdentifier: "segueToSkillVC", sender: self)
     }
-
+    
     @IBAction func onMensTapped(_ sender: UIButton) {
         setLeague(to: "Mens")
     }
