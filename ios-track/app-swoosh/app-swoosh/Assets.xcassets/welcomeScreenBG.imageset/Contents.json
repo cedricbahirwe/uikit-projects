@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "filename" : "welcomeScreenBG.png",
+      "idiom" : "universal",
+      "locale" : "FreeTutorials.Eu",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "welcomeScreenBG@2x.png",
+      "idiom" : "universal",
+      "locale" : "FreeTutorials.Eu",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "welcomeScreenBG@3x.png",
+      "idiom" : "universal",
+      "locale" : "FreeTutorials.Eu",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
