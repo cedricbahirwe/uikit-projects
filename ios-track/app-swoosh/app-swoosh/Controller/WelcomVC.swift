@@ -10,16 +10,24 @@ import UIKit
 class WelcomVC: UIViewController {
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
+    
+    override var prefersStatusBarHidden: Bool {
+        true
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
     }
+    
+    
     
     @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) { }
     
+
     
-
-
 }
 

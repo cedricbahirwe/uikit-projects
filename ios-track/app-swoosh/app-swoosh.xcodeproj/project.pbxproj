@@ -16,6 +16,7 @@
 		82AEEAD62658493F0050B978 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AEEAD52658493F0050B978 /* BorderButton.swift */; };
 		82AEEADE26585F2F0050B978 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AEEADD26585F2F0050B978 /* LeagueVC.swift */; };
 		82AEEAE126585F370050B978 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AEEAE026585F370050B978 /* SkillVC.swift */; };
+		82B29EA32658640F00AAC79D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B29EA22658640F00AAC79D /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		82AEEAD52658493F0050B978 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		82AEEADD26585F2F0050B978 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		82AEEAE026585F370050B978 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		82B29EA22658640F00AAC79D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				82AEEAC3265846FB0050B978 /* WelcomVC.swift */,
 				82AEEADD26585F2F0050B978 /* LeagueVC.swift */,
+				82B29EA22658640F00AAC79D /* Player.swift */,
 				82AEEAE026585F370050B978 /* SkillVC.swift */,
 			);
 			path = Controller;
@@ -174,6 +177,7 @@
 				82AEEAC4265846FB0050B978 /* WelcomVC.swift in Sources */,
 				82AEEAC0265846FB0050B978 /* AppDelegate.swift in Sources */,
 				82AEEAC2265846FB0050B978 /* SceneDelegate.swift in Sources */,
+				82B29EA32658640F00AAC79D /* Player.swift in Sources */,
 				82AEEAE126585F370050B978 /* SkillVC.swift in Sources */,
 				82AEEAD62658493F0050B978 /* BorderButton.swift in Sources */,
 			);
