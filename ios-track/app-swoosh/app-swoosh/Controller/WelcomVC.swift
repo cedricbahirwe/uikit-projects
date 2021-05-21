@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WelcomVC.swift
 //  app-swoosh
 //
 //  Created by Cédric Bahirwe on 21/05/2021.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomVC: UIViewController {
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
 
