@@ -3,19 +3,16 @@
     {
       "filename" : "swooshLogo.png",
       "idiom" : "universal",
-      "locale" : "FreeTutorials.Eu",
       "scale" : "1x"
     },
     {
       "filename" : "swooshLogo@2x.png",
       "idiom" : "universal",
-      "locale" : "FreeTutorials.Eu",
       "scale" : "2x"
     },
     {
       "filename" : "swooshLogo@3x.png",
       "idiom" : "universal",
-      "locale" : "FreeTutorials.Eu",
       "scale" : "3x"
     }
   ],

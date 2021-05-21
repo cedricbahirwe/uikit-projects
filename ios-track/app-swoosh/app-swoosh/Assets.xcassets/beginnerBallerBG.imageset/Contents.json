@@ -3,19 +3,16 @@
     {
       "filename" : "beginnerBallerBG.png",
       "idiom" : "universal",
-      "locale" : "FreeTutorials.Eu",
       "scale" : "1x"
     },
     {
       "filename" : "beginnerBallerBG@2x.png",
       "idiom" : "universal",
-      "locale" : "FreeTutorials.Eu",
       "scale" : "2x"
     },
     {
       "filename" : "beginnerBallerBG@3x.png",
       "idiom" : "universal",
-      "locale" : "FreeTutorials.Eu",
       "scale" : "3x"
     }
   ],
